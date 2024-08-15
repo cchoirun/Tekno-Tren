@@ -19,7 +19,7 @@ const Contact = () => {
                 Tertarik?<br />
                 Hubungi  <span className="text-blue-700">Kami</span>
               </h1>
-              <Button variant = "bg-green-600">Klik sini</Button>
+              <Button variant = "bg-green-600 hover:bg-green-700">Hubungi</Button>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}

@@ -8,7 +8,7 @@ const Title = ({ children,style, initialX = 0, scrollRange = [0, 0.9], moveDista
   return (
     <motion.h1
       style={{ x }}
-      className={`z-10 mt-auto font-bold text-white transition-all ease-in-out text-3xl md:text-5xl lg:text-9xl whitespace-nowrap duration-3000 ${className}`}
+      className={`z-10 mt-auto font-bold text-white transition-all ease-in-out text-5xl md:text-7xl lg:text-9xl whitespace-nowrap duration-3000 ${className}`}
       initial={{ x: initialX }}
       
       

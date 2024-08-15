@@ -1,5 +1,6 @@
 import logo from "../../../assets/public/logo.png";
 import img from "../../../assets/public/hero.png";
+import { AiFillInstagram, AiFillLinkedin, AiOutlineInstagram, AiOutlineLinkedin, AiOutlineWhatsApp } from "react-icons/ai";
 
 const Footer = () => {
     return (
@@ -24,8 +25,11 @@ const Footer = () => {
         </div>
 
         <div className="py-8 lg:py-16 lg:pe-16">
-            <div className="text-teal-600 lg:block">
-               <img src={logo} className="w-40" />
+            <div className="lg:block">
+               <img src={logo} className="w-40 mb-3" />
+               <p>Empower the Potential Excellence</p>
+               <p>Jl. Keputih Gg. II C No. 4, Keputih, Sukolilo, Surabaya, Jawa Timur, 60111</p>
+               <p>admin@teknotrenhouse.com</p>
             </div>
 
             <div className="grid grid-cols-1 gap-8 mt-8 sm:grid-cols-3">
@@ -34,62 +38,35 @@ const Footer = () => {
 
                 <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
+                    <a href="#" className="text-gray-700 transition hover:opacity-75"> Web Development </a>
                 </li>
 
                 <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75"> Company Review </a>
+                    <a href="#" className="text-gray-700 transition hover:opacity-75"> Web Maintenance </a>
                 </li>
 
-                <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
-                </li>
-
-                <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75"> HR Consulting </a>
-                </li>
-
-                <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75"> SEO Optimisation </a>
-                </li>
+                
                 </ul>
             </div>
 
             <div>
-                <p className="font-medium text-gray-900">Company</p>
+                <p className="mb-6 font-medium text-gray-900">Social Media</p>
 
-                <ul className="mt-6 space-y-4 text-sm">
-                <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75"> About </a>
-                </li>
+                <div className="flex gap-2">
+                    <a href="https://wa.me/6285748783507">
+                        <AiOutlineWhatsApp className="w-6 h-6 text-gray-700 hover:text-green-600" />
+                    </a>
+                    <a href="https://www.instagram.com/teknotren_house/">
+                        <AiFillInstagram className="w-6 h-6 text-gray-700 hover:text-pink-700" />
+                    </a>
+                    <a href="https://www.linkedin.com/company/teknotren-house">
+                        <AiFillLinkedin className="w-6 h-6 text-gray-700 hover:text-blue-800" />
+                    </a>
 
-                <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
-                </li>
-
-                <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
-                </li>
-                </ul>
+                </div>
             </div>
 
-            <div>
-                <p className="font-medium text-gray-900">Helpful Links</p>
-
-                <ul className="mt-6 space-y-4 text-sm">
-                <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75"> Contact </a>
-                </li>
-
-                <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75"> FAQs </a>
-                </li>
-
-                <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75"> Live Chat </a>
-                </li>
-                </ul>
-            </div>
+            
             </div>
 
             <div className="pt-8 mt-8 border-t border-gray-100">
@@ -107,7 +84,7 @@ const Footer = () => {
                 </li>
             </ul>
 
-            <p className="mt-8 text-xs text-gray-500">&copy; 2022. Company Name. All rights reserved.</p>
+            <p className="mt-8 text-xs text-gray-500">&copy; 2024. Tekno Tren. All rights reserved.</p>
             </div>
         </div>
         </div>

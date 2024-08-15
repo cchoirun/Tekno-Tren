@@ -4,7 +4,7 @@ import ServiceCard from "../Elements/Card/ServiceCard";
 import img from "../../assets/public/img-2.png";
 
 
-const Product = () => {
+const Client = () => {
     return (
         <section className="py-20 my-20 md:pt-15 overflow-clip">
             <div className="py-4">
@@ -23,4 +23,4 @@ const Product = () => {
     )
 }
 
-export default Product;
+export default Client;
