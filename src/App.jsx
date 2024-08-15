@@ -4,6 +4,7 @@ import Layout from './components/Layouts/Layout'
 import About from './components/Fragments/about'
 import Product from './components/Fragments/product'
 import Contact from './components/Fragments/contact'
+import Client from './components/Fragments/client'
 function App() {
   
 

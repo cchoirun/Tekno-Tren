@@ -22,7 +22,9 @@ const Hero = () => {
               </h1>
               <p className="max-w-md mb-8 text-lg text-black">
               Kami adalah Software House yang berdedikasi untuk menyediakan layanan Teknologi Informasi terbaik bagi bisnis Anda. Dengan fokus pada pembuatan website, maintenance website, dan berbagai sistem informasi inovatif, Tekno Tren hadir sebagai mitra strategis untuk membantu bisnis Anda tumbuh dan berkembang.</p>
-              <Button variant = "bg-green-600">Klik sini</Button>
+              <a href="https://wa.me/6285748783507">
+                <Button variant = "bg-green-600 hover:bg-green-700">Hubungi Kami</Button>
+              </a>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
