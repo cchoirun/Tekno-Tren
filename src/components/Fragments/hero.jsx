@@ -1,9 +1,7 @@
 import React from "react";
-import hero from "../../assets/public/hero.png";
 import bg_hero from "../../assets/public/laptop.png";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Button from "../Elements/Button/Index";
+import Button from "../Elements/Button";
 
 const Hero = () => {
     return (
