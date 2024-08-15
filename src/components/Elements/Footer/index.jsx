@@ -15,7 +15,8 @@ const Footer = () => {
             <span className="hidden w-10 h-1 bg-teal-500 rounded lg:block"></span>
 
             <div>
-                <img src={img} className=""/>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.5799030353055!2d112.799521!3d-7.288544200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa7205a41187%3A0x7f68d31ec87be552!2sJl.%20Keputih%20Gg.%20II%20C%20No.4%2C%20Keputih%2C%20Kec.%20Sukolilo%2C%20Surabaya%2C%20Jawa%20Timur%2060111!5e0!3m2!1sid!2sid!4v1723687110033!5m2!1sid!2sid" 
+            className="w-full h-full" style={{border:0}}loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             
@@ -23,7 +24,7 @@ const Footer = () => {
         </div>
 
         <div className="py-8 lg:py-16 lg:pe-16">
-            <div className="hidden text-teal-600 lg:block">
+            <div className="text-teal-600 lg:block">
                <img src={logo} className="w-40" />
             </div>
 
