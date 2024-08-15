@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 // import Card from "../Elements/Card";
 const About = () => {
     return (
-        <section className="flex flex-col-reverse px-6 my-10 md:grid md:grid-cols-2 py-18 md:pt-15 md:px-12 lg:px-22">
+        <section className="flex flex-col-reverse px-6 my-32 md:grid md:grid-cols-2 py-18 md:pt-15 md:px-12 lg:px-22">
             <div className="hidden gap-2 md:flex md:flex-wrap">
                 <Paper className="w-32 md:w-48 lg:w-64" title="Tekno Tren" width= {250} imageSrc={img} description= {<a href="https://instagram.com/teknotren_house">instagram.com/teknotren_house</a>}/>
                 <Paper className="w-32 md:w-48 lg:w-64" title="Tekno Tren" width= {250} imageSrc={img} description= {<a href="https://instagram.com/teknotren_house">twitter.com/teknotren_house</a>}/>

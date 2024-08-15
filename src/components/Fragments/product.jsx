@@ -8,7 +8,7 @@ const Product = () => {
     return (
         <section className="py-20 my-20 md:pt-15 overflow-clip">
             <div className="py-4">
-                <Title className=" text-slate-400">Produk Kami • Produk Kami • Produk Kami • Produk Kami • Produk Kami • Produk Kami • Produk Kami </Title>
+                <Title className=" text-slate-500">Produk Kami • Produk Kami • Produk Kami • Produk Kami • Produk Kami • Produk Kami • Produk Kami </Title>
                 <Title moveDistance={600} initialX={-600} className="text-slate-400">Produk Kami • Produk Kami • Produk Kami • Produk Kami • Produk Kami • Produk Kami • Produk Kami </Title>
             </div>
             <div className="flex flex-col gap-4 px-6 mt-8 md:px-12 lg:px-22">
